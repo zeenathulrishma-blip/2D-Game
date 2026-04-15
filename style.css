@@ -1,0 +1,45 @@
+.background {
+    background: url("background.png");
+    background-size: 100%;
+}
+
+.boy {
+    height: 250px;
+    margin-top: 450px;
+    position: absolute;
+}
+
+.score {
+    position: absolute;
+    color: red;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.flame{
+    height: 150px;
+    position: absolute;
+    margin-top: 557px;
+    margin-left: 700px
+
+
+}
+
+
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .boy {
+        max-width: 100px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .boy {
+        max-width: 80px;
+    }
+}
